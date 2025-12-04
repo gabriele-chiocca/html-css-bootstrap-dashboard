@@ -6,14 +6,18 @@
     <title>Bootstrap Dashboard</title>
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- CSS Custom -->
+
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
     
     <!-- Navbar -->
       <div>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-         <div class="container-fluid">
+        <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary"  data-bs-theme="dark">
+         <div class="container-fluid ">
            <a class="navbar-brand" href="#">
             <img src="./img/duck.png" alt="Duck Logo" height="48">
            </a>
@@ -37,16 +41,196 @@
 
              </ul>
              <form class="d-flex" role="search">
-               <input class="form-control me-2" type="search" placeholder="Cerca" aria-label="search"/>
-               <button class="btn btn-outline-success" type="submit">Cerca</button>
+               <input  class="form-control me-2 text-bg-light"  type="search" placeholder="Cerca" aria-label="search"/>
+               <button class="btn btn-outline-light" type="submit">Cerca</button>
              </form>
            </div>
          </div>
         </nav>
       </div>
-    
-      <div>
+
+
+      <!-- Container -->
+      <div class="container">
         
+         <div class="row">
+          
+           <div class="col-8">
+             <table class="table table-striped">
+               <thead>
+                 <tr>
+                   <th scope="col">Titolo</th>
+                   <th scope="col">Data prestito</th>
+                   <th scope="col">Stato</th>
+                   <th scope="col">Azioni</th>
+                 </tr>
+               </thead>
+               <tbody>
+                 <tr>
+                   <td>I pilastri della terra</td>
+                   <td>-</td>
+                   <td><span class="badge text-bg-success">Disponibile</span></td>
+                   <td>
+                    <button type="button" class="btn btn-outline-dark">
+                        <i class="bi bi-pencil-fill text-secondary"></i>
+                    </button> 
+                    <button type="button" class="btn btn-outline-dark">
+                        <i class="bi bi-trash-fill text-secondary"></i>
+                    </button>
+                   </td>
+                 </tr>
+                 <tr>
+                   <td>I pilastri della terra</td>
+                   <td>-</td>
+                   <td><span class="badge text-bg-success">Disponibile</span></td>
+                   <td>
+                    <button type="button" class="btn btn-outline-dark">
+                        <i class="bi bi-pencil-fill text-secondary"></i>
+                    </button> 
+                    <button type="button" class="btn btn-outline-dark">
+                        <i class="bi bi-trash-fill text-secondary"></i>
+                    </button>
+                   </td>
+                 </tr>
+                 <tr>
+                   <td>I pilastri della terra</td>
+                   <td>-</td>
+                   <td><span class="badge text-bg-success">Disponibile</span></td>
+                   <td>
+                    <button type="button" class="btn btn-outline-dark">
+                        <i class="bi bi-pencil-fill text-secondary"></i>
+                    </button> 
+                    <button type="button" class="btn btn-outline-dark">
+                        <i class="bi bi-trash-fill text-secondary"></i>
+                    </button>
+                   </td>
+                 </tr>
+                 <tr>
+                   <td>I pilastri della terra</td>
+                   <td>-</td>
+                   <td><span class="badge text-bg-success">Disponibile</span></td>
+                   <td>
+                    <button type="button" class="btn btn-outline-dark">
+                        <i class="bi bi-pencil-fill text-secondary"></i>
+                    </button> 
+                    <button type="button" class="btn btn-outline-dark">
+                        <i class="bi bi-trash-fill text-secondary"></i>
+                    </button>
+                   </td>
+                 </tr>
+                 <tr>
+                   <td>I pilastri della terra</td>
+                   <td>-</td>
+                   <td><span class="badge text-bg-success">Disponibile</span></td>
+                   <td>
+                    <button type="button" class="btn btn-outline-dark">
+                        <i class="bi bi-pencil-fill text-secondary"></i>
+                    </button> 
+                    <button type="button" class="btn btn-outline-dark">
+                        <i class="bi bi-trash-fill text-secondary"></i>
+                    </button>
+                   </td>
+                 </tr>
+                 <tr>
+                   <td>I pilastri della terra</td>
+                   <td>-</td>
+                   <td><span class="badge text-bg-success">Disponibile</span></td>
+                   <td>
+                    <button type="button" class="btn btn-outline-dark">
+                        <i class="bi bi-pencil-fill text-secondary"></i>
+                    </button> 
+                    <button type="button" class="btn btn-outline-dark">
+                        <i class="bi bi-trash-fill text-secondary"></i>
+                    </button>
+                   </td>
+                 </tr>
+                 <tr>
+                   <td>I pilastri della terra</td>
+                   <td>-</td>
+                   <td><span class="badge text-bg-success">Disponibile</span></td>
+                   <td>
+                    <button type="button" class="btn btn-outline-dark">
+                        <i class="bi bi-pencil-fill text-secondary"></i>
+                    </button> 
+                    <button type="button" class="btn btn-outline-dark">
+                        <i class="bi bi-trash-fill text-secondary"></i>
+                    </button>
+                   </td>
+                 </tr>
+                 <tr>
+                   <td>I pilastri della terra</td>
+                   <td>-</td>
+                   <td><span class="badge text-bg-success">Disponibile</span></td>
+                   <td>
+                    <button type="button" class="btn btn-outline-dark">
+                        <i class="bi bi-pencil-fill text-secondary"></i>
+                    </button> 
+                    <button type="button" class="btn btn-outline-dark">
+                        <i class="bi bi-trash-fill text-secondary"></i>
+                    </button>
+                   </td>
+                 </tr>
+                 <tr>
+                   <td>I pilastri della terra</td>
+                   <td>-</td>
+                   <td><span class="badge text-bg-success">Disponibile</span></td>
+                   <td>
+                    <button type="button" class="btn btn-outline-dark">
+                        <i class="bi bi-pencil-fill text-secondary"></i>
+                    </button> 
+                    <button type="button" class="btn btn-outline-dark">
+                        <i class="bi bi-trash-fill text-secondary"></i>
+                    </button>
+                   </td>
+                 </tr>
+                 <tr>
+                   <td>I pilastri della terra</td>
+                   <td>-</td>
+                   <td><span class="badge text-bg-success">Disponibile</span></td>
+                   <td>
+                    <button type="button" class="btn btn-outline-dark">
+                        <i class="bi bi-pencil-fill text-secondary"></i>
+                    </button> 
+                    <button type="button" class="btn btn-outline-dark">
+                        <i class="bi bi-trash-fill text-secondary"></i>
+                    </button>
+                   </td>
+                 </tr>
+                 <tr>
+                   <td>I pilastri della terra</td>
+                   <td>-</td>
+                   <td><span class="badge text-bg-success">Disponibile</span></td>
+                   <td>
+                    <button type="button" class="btn btn-outline-dark">
+                        <i class="bi bi-pencil-fill text-secondary"></i>
+                    </button> 
+                    <button type="button" class="btn btn-outline-dark">
+                        <i class="bi bi-trash-fill text-secondary"></i>
+                    </button>
+                   </td>
+                 </tr>
+                 <tr>
+                   <td>I pilastri della terra</td>
+                   <td>-</td>
+                   <td><span class="badge text-bg-success">Disponibile</span></td>
+                   <td>
+                    <button type="button" class="btn btn-outline-dark">
+                        <i class="bi bi-pencil-fill text-secondary"></i>
+                    </button> 
+                    <button type="button" class="btn btn-outline-dark">
+                        <i class="bi bi-trash-fill text-secondary"></i>
+                    </button>
+                   </td>
+                 </tr>
+               </tbody>
+             </table>
+           </div>
+
+           <div class="col-4">
+              
+           </div>
+
+         </div>
 
       </div>
     
