@@ -1,3 +1,7 @@
 .space-table {
     width: 50%;
 }
+
+.form-control::placeholder {
+    color: gray;
+}
